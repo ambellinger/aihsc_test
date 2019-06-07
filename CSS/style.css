@@ -78,9 +78,15 @@ body {
     transition: all 0.3s ease 0s;
   }
 
+
+  .search input[type="text"] {
+    text-align: right;
+}
   input[type="text"]::placeholder {
     letter-spacing: 3px;
   }
+
+
 
 /* Navigation Bar */
 
@@ -648,4 +654,60 @@ html {
     color: rgb(219,38,14);
     letter-spacing: 3px;
     margin-top: 30px; 
+}
+
+/* Contact */
+
+.contactTitle {
+    color: rgb(219,38,14);
+    letter-spacing: 3px;
+    margin-top: 30px; 
+}
+
+input,
+textarea {
+    width: 100%;
+   
+}
+
+ input[type="email"],
+ input[type="number"],
+ input[type="search"],
+ input[type="text"],
+ input[type="tel"],
+ input[type="url"],
+ input[type="password"],
+ textarea,
+ select {
+  text-align: left;
+}
+
+input[type="email"],
+ input[type="number"],
+ input[type="search"],
+ input[type="text"],
+ input[type="tel"],
+ input[type="url"],
+ input[type="password"] {
+     height: 50px; 
+ }
+
+ textarea {
+    height: 100px; 
+ }
+
+ form {
+     padding-right: 200px; 
+ }
+
+ input[type="submit"] {
+     width: 100px;
+     float: right; 
+ }
+
+ input[type="submit"]:hover {
+   background-color: rgb(219,38,14);
+   color: white; 
+   border: white; 
+  
 }
