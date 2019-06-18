@@ -1,0 +1,26 @@
+
+/* Social Media Icons-NavBar */
+.social-media-icons .fab {
+    color: rgb(219,38,14);
+    margin: 10px;  
+}
+
+.social-media-icons {
+  font-size: 30px;
+  text-align: center;
+}
+
+.fab:hover {
+    color: black;
+    transition: all 0.3s ease 0s;
+  }
+
+
+  .search input[type="text"] {
+    text-align: right;
+}
+  input[type="text"]::placeholder {
+    letter-spacing: 3px;
+  }
+
+

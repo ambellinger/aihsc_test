@@ -1,0 +1,91 @@
+/* Events and News Section */
+
+.eventsAndNews {
+    padding-left: 20px; 
+    padding-right: 20px;
+    background-color: #f1f2f3;
+}
+
+.eventsAndNews h2 {
+    text-align: center;
+    
+}
+
+
+.events,
+.news {
+    /* border: .5px #ccc solid; */
+    padding: 15px;
+    height: 100%;
+    min-height: 600px;
+    /* margin-top: 30px;  */
+  
+    
+}
+
+
+ .event-summary-link,
+ .news-summary-link {
+    text-decoration: none;
+    display: block;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    margin-top: 12px;
+    color: #FFF;
+    background-color: #0D3B66;
+    line-height: 1;
+    transition: opacity .33s;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+}
+
+.event-summary-link:hover {
+   opacity: 0.5;
+   transition: all 0.3s ease 0s;
+}
+
+
+.event-summary-content,
+.event-summary-content h5 a ,
+.news-summary-content,
+.news-summary h5 a
+{
+    color: #333;
+    overflow-x: hidden;
+    text-decoration: none;
+} 
+
+.news-summary h5 {
+    margin-bottom: 0;
+}
+
+.event-summary h5 {
+    margin-bottom: 5px;
+}
+
+.news-author,
+.news-date {
+    font-style: italic;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.news-date {
+    margin-bottom: 15px; 
+}
+
+.learn-more-link {
+    color: rgb(219,38,14); 
+}
+
+.learn-more-link:hover {
+    color: black;
+  
+}
+
+.button {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%
+}

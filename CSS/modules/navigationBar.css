@@ -1,0 +1,41 @@
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 25px;
+    overflow: hidden;
+    list-style: none;
+ 
+  }
+  
+ .navbar li {
+    display: inline-block;
+    margin: 0; 
+  }
+  
+ .navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    
+    border: 1px solid transparent;
+  }
+  
+  .navbar li a:hover {
+    color: rgb(219,38,14);
+    border-bottom: 1px solid red;
+    transition: all 0.3s ease 0s;
+    /* border-bottom-width: thick; */
+  }
+
+
+
