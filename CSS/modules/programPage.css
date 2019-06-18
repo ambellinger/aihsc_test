@@ -1,0 +1,35 @@
+/* Program Page */
+
+.programTitle {
+  color: rgb(219,38,14);
+  letter-spacing: 3px;
+  margin-top: 30px; 
+}
+
+.section-a img {
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+}
+
+.section-a .button {
+  margin: 0; 
+  color: rgb(219,38,14);
+  background-color:  white;
+  border-color: black; 
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  text-shadow: 0 2px 4px 0 rgba(61, 60, 60, 0.1), 0 3px 10px 0 rgba(61, 60, 60, 0.1);
+  text-shadow: 0 2px 4px 0 rgba(61, 60, 60, 0.1), 0 3px 10px 0 rgba(61, 60, 60, 0.1);
+}
+
+.section-a .button:hover {
+  margin: 0; 
+  color: white;
+  background-color:  rgb(219,38,14);
+  border-color: white; 
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  text-shadow: 0 2px 4px 0 rgba(61, 60, 60, 0.1), 0 3px 10px 0 rgba(61, 60, 60, 0.1);
+  text-shadow: 0 2px 4px 0 rgba(61, 60, 60, 0.1), 0 3px 10px 0 rgba(61, 60, 60, 0.1);
+}

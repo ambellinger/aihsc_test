@@ -1,0 +1,97 @@
+/* Big Links */
+
+.bigLinkArea {
+  background-color: #f1f2f3;
+  padding: 50px; 
+}
+
+html {
+  box-sizing: border-box; }
+  
+*, *:before, *:after { 
+  box-sizing: inherit; 
+}
+  
+.square {
+  height: 0; 
+}
+  
+.square-100 {
+  width: 100%;
+  padding-bottom: 100%; 
+}
+  
+/* Styling */
+
+.square {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #eee; 
+}
+  
+.grid {
+  display: block;
+  padding: 0;
+  margin: 0 -6px 12px;
+  text-align: left;
+  font-size: 0; 
+}
+  
+.grid-cell {
+  display: inline-block;
+  margin: 0;
+  padding: 0 6px;
+  text-align: left;
+  vertical-align: top;
+  width: 100%;
+  font-size: 16px; 
+}
+  
+.grid-25 { 
+  width: 25%; 
+}
+  
+.square {
+  overflow: hidden;
+  border-radius: 8px;
+  background-size: cover;
+  box-shadow: 0 3px 12px rgba(#252243, .9); 
+}
+    
+.bigLinkOne {
+  background-image: url(/Static_AIHSC/images/Dancer1.jpg); 
+}
+   
+.bigLinkTwo {
+  background-image: url(/Static_AIHSC/images/Dancer4.jpg); 
+}
+  
+.bigLinkThree {
+  background-image: url(/Static_AIHSC/images/hands.jpg); 
+}
+  
+.bigLinkFour {
+  background-image: url(/Static_AIHSC/images/resources.jpg); 
+}
+  
+.title h2 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #fff;
+  text-shadow: 0 1px rgba(black, .6);
+  background: rgba(0,0,0, 0.5);
+  margin: 0;
+  padding: 30px; 
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 100%;
+	transform: translate(-50%, -50%);
+}
+
+.square:hover,
+.square:focus {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.8);  
+  transform: translateY(-0.25em);
+}

@@ -1,0 +1,40 @@
+/* Mission Statement */
+.mission-statement {
+    background-image: url("/Static_AIHSC/images/Dancer2.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.mission-statement h3 {
+    font-weight: bold;
+}
+
+.mission-statement:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+
+.mission-statement-text {
+    text-align: center;
+    position: relative;
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+    font-size: 20px; 
+}
+
+.mission-statement-text li {
+    text-align: left;
+    margin-left: 10%; 
+    margin-right: 10%;
+}

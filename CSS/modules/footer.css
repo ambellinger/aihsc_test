@@ -1,0 +1,92 @@
+/* Footer */
+.site-map {
+    background-color: rgb(39,37,31);
+    color: white;
+    padding: 25px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;  
+}
+
+.site-map img {
+    float: right; 
+    margin-bottom: 50px;
+}
+
+.site-map .contact-info {
+    float: right;
+}
+
+.site-map li {
+    list-style: none;
+}
+
+.icon::before {
+    font-size: 20px;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free"; 
+}
+
+.map::before {
+    content: "\f5a0";
+}
+
+.phone::before {
+    content: "\f095";
+}
+
+.fax::before {
+    content: "\f1ac";
+}
+
+.email::before {
+    content: "\f199";
+}
+
+.clinic-hours::before {
+    content: "\f7f2";
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.site-map a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.site-map a:hover {
+    color: darkgray;
+}
+
+.site-map p {
+    margin: 0;
+    padding: 0;
+}
+
+.site-map .fab {
+    padding: 10px;
+    font-size: 20px; 
+}
+
+.site-map .fab:hover {
+    color: darkgray; 
+}
+
+/* Be sure to make the year dynamic */
+.copyright {
+    text-align: center;
+    color: white;
+}
