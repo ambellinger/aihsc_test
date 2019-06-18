@@ -1,4 +1,3 @@
-
 /* Search Bar */
 .search {
     margin-right: 25px;
@@ -11,4 +10,12 @@
 
 .search-bar {
     width: 80%;
+}
+
+.search input[type="text"] {
+    text-align: right;
+}
+
+  input[type="text"]::placeholder {
+    letter-spacing: 3px;
 }

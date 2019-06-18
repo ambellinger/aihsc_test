@@ -1,73 +1,63 @@
  /* Big Image */  
-  /* NOTE: Don't forget to clean out this code */
 
-  .bigImage {
-    background-image: url("../../images/Dancer3.jpg");
-    padding: 225px; 
-    background-size: cover;
-    margin-top: 30px; 
-    position: relative;
-    z-index: 10;
- }
+.bigImage {
+  background-image: url("../../images/Dancer3.jpg");
+  padding: 225px; 
+  background-size: cover;
+  margin-top: 30px; 
+  position: relative;
+  z-index: 10;
+}
 
- .bigImage::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.75));
-    z-index: -1;
- }
+.bigImage::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.75));
+  z-index: -1;
+}
  
+.motto {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 4px 4px 12px rgba(0,0,0,.75);
+  color: whitesmoke;
+  text-align: center;
+}
 
- .motto {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2;
-    text-shadow: 4px 4px 12px rgba(0,0,0,.75);
-     color: whitesmoke;
-     text-align: center;
-    
-  
- }
+.value {
+  text-align: center;
+}
 
- .value {
-     text-align: center;
-  
- }
- .mainLinkArea {
-    
-    background-color: black;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.8);
-    padding: 20px;
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
- }
+.mainLinkArea {
+  background-color: black;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+  padding: 20px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
 
+.mainLink {
+  text-align: center;
+  position: relative;
+  color:white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+  font-size: 20px; 
+}
 
- .mainLink {
-    text-align: center;
-    position: relative;
-    color:white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
-    font-size: 20px; 
- 
-   
-   
-   
- }
-
- .mainLinkArea:hover{
-     background-color: red;
-     cursor: pointer;
-     transition: all 0.3s ease 0s;
- }
+.mainLinkArea:hover{
+  background-color: red;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}

@@ -1,70 +1,64 @@
 /* General Page */
 
 .section-a {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-
 .page-links {
-    position: relative;
-    z-index: 1;
-    margin: 0 0 40px 0;
-  }
+  position: relative;
+  z-index: 1;
+  margin: 0 0 40px 0;
+}
   
-  @media (min-width: 767px) {
+.page-links__title {
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+  padding: 10px 0;
+  color: black;
+}
   
-    .page-links {
-      margin: 0 0 40px 20px;
-      width: 300px;
-      float: right;
-    }
-  }
+.page-links__title a {
+  color: black;
+  text-decoration: none; 
+}
   
-  .page-links__title {
-    margin: 0;
-    font-weight: normal;
-    text-align: center;
-    padding: 10px 0;
-    
-    color: black;
-  }
+.page-links li {
+  border-top: 1px solid darkgrey;
+}
   
-  .page-links__title a {
-    color: black;
-    text-decoration: none;
-   
-  }
-  
-  .page-links li {
-    border-top: 1px solid darkgrey;
-  }
-  
-  .page-links li:first-child {
-    border-top: none;
-  }
+.page-links li:first-child {
+  border-top: none;
+}
 
+.page-links li a {
+  display: block;
+  text-align: center;
+  padding: 5px 0px;
+  text-decoration: none;
+  color: black;
+  transition: all .3s;
+}
   
-  .page-links li a {
-    display: block;
-    text-align: center;
-    padding: 5px 0px;
-    text-decoration: none;
-    color: black;
-    transition: all .3s;
-  }
-  
-  .page-links li a:hover {
-    color: rgb(219,38,14);
+.page-links li a:hover {
+  color: rgb(219,38,14);
+}
 
-    
-  }
-
-  .linkList {
+.linkList {
   padding: 0;
   margin: 0;
 }
 
 .linkList li {
   list-style: none;
+}
+
+@media (min-width: 767px) {
+  
+  .page-links {
+    margin: 0 0 40px 20px;
+    width: 300px;
+    float: right;
+  }
 }
